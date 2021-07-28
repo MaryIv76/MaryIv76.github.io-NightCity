@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">     
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+
+        <meta name="description" content="Салон красоты Ночной город предоставляет услуги маникюра, макияжа, педикюра, парикмахерские, массаж, косметологию и многое другое. Записаться к нашему мастеру Вы можете на нашем сайте.">
+        <meta name="keywords" content="салон красоты, ночной город, макияж, маникюр, педикюр, парикмахерская, парикмахерские услуги, массаж, косметология, запись на приём, записаться">
+        <meta name="google" content="notranslate" />
+
+        <title>Ночной город</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+
+        <!-- Sprite -->
+        <svg style="display: none;">
+
+            <symbol id="facebook" viewBox="0 0 155.139 155.139">
+                <g>
+                    <path d="M89.584,155.139V84.378h23.742l3.562-27.585H89.584V39.184
+                        c0-7.984,2.208-13.425,13.67-13.425l14.595-0.006V1.08C115.325,0.752,106.661,0,96.577,0C75.52,0,61.104,12.853,61.104,36.452
+                        v20.341H37.29v27.585h23.814v70.761H89.584z"/>
+                </g>
+            </symbol>
+
+            <symbol id="twitter" viewBox="0 -47 512.00203 512">
+                <g>
+                    <path d="m191.011719 419.042969c-22.140625 0-44.929688-1.792969-67.855469-5.386719-40.378906-6.335938-81.253906-27.457031-92.820312-33.78125l-30.335938-16.585938 32.84375-10.800781c35.902344-11.804687 57.742188-19.128906 84.777344-30.597656-27.070313-13.109375-47.933594-36.691406-57.976563-67.175781l-7.640625-23.195313 6.265625.957031c-5.941406-5.988281-10.632812-12.066406-14.269531-17.59375-12.933594-19.644531-19.78125-43.648437-18.324219-64.21875l1.4375-20.246093 12.121094 4.695312c-5.113281-9.65625-8.808594-19.96875-10.980469-30.777343-5.292968-26.359376-.863281-54.363282 12.476563-78.851563l10.558593-19.382813 14.121094 16.960938c44.660156 53.648438 101.226563 85.472656 168.363282 94.789062-2.742188-18.902343-.6875-37.144531 6.113281-53.496093 7.917969-19.039063 22.003906-35.183594 40.722656-46.691407 20.789063-12.777343 46-18.96875 70.988281-17.433593 26.511719 1.628906 50.582032 11.5625 69.699219 28.746093 9.335937-2.425781 16.214844-5.015624 25.511719-8.515624 5.59375-2.105469 11.9375-4.496094 19.875-7.230469l29.25-10.078125-19.074219 54.476562c1.257813-.105468 2.554687-.195312 3.910156-.253906l31.234375-1.414062-18.460937 25.230468c-1.058594 1.445313-1.328125 1.855469-1.703125 2.421875-1.488282 2.242188-3.339844 5.03125-28.679688 38.867188-6.34375 8.472656-9.511718 19.507812-8.921875 31.078125 2.246094 43.96875-3.148437 83.75-16.042969 118.234375-12.195312 32.625-31.09375 60.617187-56.164062 83.199219-31.023438 27.9375-70.582031 47.066406-117.582031 56.847656-23.054688 4.796875-47.8125 7.203125-73.4375 7.203125zm0 0"/>
+                </g>
+            </symbol>
+
+            <symbol id="vk" viewBox="0 0 96.496 96.496">
+                <g>
+                    <path d="M92.499,65.178c-2.873-3.446-6.254-6.387-9.453-9.51c-2.886-2.815-3.068-4.448-0.748-7.697
+                        c2.532-3.546,5.255-6.956,7.81-10.486c2.385-3.299,4.823-6.589,6.078-10.539c0.796-2.513,0.092-3.623-2.485-4.063
+                        c-0.444-0.077-0.903-0.081-1.355-0.081l-15.289-0.018c-1.883-0.028-2.924,0.793-3.59,2.462c-0.899,2.256-1.826,4.51-2.897,6.687
+                        c-2.43,4.936-5.144,9.707-8.949,13.747c-0.839,0.891-1.767,2.017-3.169,1.553c-1.754-0.64-2.271-3.53-2.242-4.507l-0.015-17.647
+                        c-0.34-2.521-0.899-3.645-3.402-4.135l-15.882,0.003c-2.12,0-3.183,0.819-4.315,2.145c-0.653,0.766-0.85,1.263,0.492,1.517
+                        c2.636,0.5,4.121,2.206,4.515,4.849c0.632,4.223,0.588,8.463,0.224,12.703c-0.107,1.238-0.32,2.473-0.811,3.629
+                        c-0.768,1.817-2.008,2.187-3.637,1.069c-1.475-1.012-2.511-2.44-3.525-3.874c-3.809-5.382-6.848-11.186-9.326-17.285
+                        c-0.716-1.762-1.951-2.83-3.818-2.859c-4.587-0.073-9.175-0.085-13.762,0.004c-2.76,0.052-3.583,1.392-2.459,3.894
+                        c4.996,11.113,10.557,21.917,17.816,31.759c3.727,5.051,8.006,9.51,13.534,12.67c6.265,3.582,13.009,4.66,20.112,4.328
+                        c3.326-0.156,4.325-1.021,4.479-4.336c0.104-2.268,0.361-4.523,1.48-6.561c1.098-2,2.761-2.381,4.678-1.137
+                        c0.959,0.623,1.767,1.416,2.53,2.252c1.872,2.048,3.677,4.158,5.62,6.137c2.437,2.48,5.324,3.945,8.954,3.646L93.744,75.5
+                        c2.264-0.148,3.438-2.924,2.138-5.451C94.969,68.279,93.771,66.703,92.499,65.178z"/>
+                </g>
+            </symbol>
+
+        </svg>
+
+        
+        <!-- Header -->
+        <header class="header  header--intro" id="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="#" data-scroll="#intro">
+                            <img src="img/activebox-logo.png" alt="">
+                        </a>
+                    </div>
+
+                    <nav class="nav" id="nav">
+                        <a class="nav__link" href="#" data-scroll="#intro">Главная</a>
+                        <a class="nav__link" href="#" data-scroll="#features">О нас</a>
+                        <a class="nav__link" href="#" data-scroll="#works">Работы</a>
+                        <a class="nav__link" href="#" data-scroll="#team">Наши сотрудники</a>
+                        <a class="nav__link open-popup" href="#">Запись</a>
+                        <a class="nav__link" href="#" data-scroll="#reviews">Отзывы</a>
+                    </nav>
+
+                    <button class="burger" type="button" id="navToggle">
+                        <span class="burger__item">Menu</span>
+                    </button>
+
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Intro -->
+        <div class="intro" id="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <h1 class="intro__title">Салон красоты «Ночной город»</h1>
+                    <h2 class="intro__subtitle">Каждый из нас уникален и неповторим. Одни уже нашли свой стиль и образ, другие в активном поиске. Салон красоты «Ночной город» открыт для каждого, наши профессионалы ждут Вас.</h2>
+                    <a class="btn  btn--red" href='#' data-scroll="#features">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Features -->
+        <div class="container" id="features">
+            <div class="features">
+                <div class="features__item">
+                    <img class="features__icon" src="img/features/feature-1.png" alt="">
+                    <h4 class="features__title">Маникюр</h4>
+                    <div class="features__text">В нашем салоне Вы можете попробовать такие виды покрытий как:
+                        долговременный лак (Vinylux от CND),
+                        гель-лак (Shellac, LeChat),
+                        разнообразный дизайн либо
+                        классический маникюр.
+                        Умелые ручки наших мастеров порадуют Вас легким расслабляющим массажем.</div>
+                </div>
+
+                <div class="features__item">
+                    <img class="features__icon" src="img/features/feature-2.png" alt="">
+                    <h4 class="features__title">Макияж</h4>
+                    <div class="features__text">В преддверии праздников все девочки, девушки, женщины мечтают быть «Королевой Бала». Мы сможем Вам в этом помочь. Визаж — это ли не главная составляющая образа? Стилисты нашей парикмахерской подчеркнут Вашу красоту и индивидуальность макияжем: лёгким, ярким, вечерним, праздничным.</div>
+                </div>
+
+                <div class="features__item">
+                    <img class="features__icon" src="img/features/feature-6.png" alt="">
+                    <h4 class="features__title">Косметология</h4>
+                    <div class="features__text">Время не стоит на месте и как бы мы хорошо не выглядели, после 25 лет стоит задуматься о будущем. Косметология способна продлить нашу молодость, способна поддержать то что есть, способно подкорректировать.
+                        Не жалейте времени и средств для поддержания и сохранения своей красоты и молодости.</div>
+                </div>
+
+                <div class="features__item">
+                    <img class="features__icon" src="img/features/feature-4.png" alt="">
+                    <h4 class="features__title">Парикмахерские услуги</h4>
+                    <div class="features__text">Мы будем рады угодить даже самому «капризному» из Вас.
+                        Наши красавицы, мастера парикмахерского искусства, смогут порадовать Вас новой стрижкой либо укладкой.</div>
+                    </div>
+
+                <div class="features__item">
+                    <img class="features__icon" src="img/features/feature-5.png" alt="">
+                    <h4 class="features__title">Массаж</h4>
+                    <div class="features__text">Профессиональный массажист может сотворить настоящее чудо своими руками. Даже после одного сеанса Вы получаете необыкновенные ощущения: мышцы расслаблены, в теле ощущается легкость а на душе счастье!</div>
+                </div>
+
+                <div class="features__item">
+                    <img class="features__icon" src="img/features/feature-3.png" alt="">
+                    <h4 class="features__title">Педикюр</h4>
+                    <div class="features__text">Предлагаем Вашему вниманию педикюр! Мастер педикюра сможет снять усталость расслабляющем массажем ног, поднять настроение ярким цветом лака и избавить от огрубевшей кожи подходящим для Вас методом.</div>
+                </div>
+            </div><!-- /.features -->
+        </div><!-- /.container -->
+
+
+        <!-- Works -->
+        <div class="works" id="works">
+            <div class="works__item">
+                <img class="works__photo" src="img/works/work-1.jpg" alt="">
+                <div class="works__content">
+                    <div class="works__title">Виктория Клочкова</div>
+                    <div class="works__text">Нейл-дизайнер</div>
+                </div>
+            </div>
+
+            <div class="works__item">
+                <img class="works__photo" src="img/works/work-2.jpg" alt="">
+                <div class="works__content">
+                    <div class="works__title">Милко Вулканович</div>
+                    <div class="works__text">Визажист</div>
+                </div>
+            </div>
+
+            <div class="works__item">
+                <img class="works__photo" src="img/works/work-3.jpg" alt="">
+                <div class="works__content">
+                    <div class="works__title">Екатерина Жданова</div>
+                    <div class="works__text">Парикмахер</div>
+                </div>
+            </div>
+
+            <div class="works__item">
+                <img class="works__photo" src="img/works/work-4.jpg" alt="">
+                <div class="works__content">
+                    <div class="works__title">Виктория Клочкова</div>
+                    <div class="works__text">Нейл-дизайнер</div>
+                </div>
+            </div>
+
+            <div class="works__item">
+                <img class="works__photo" src="img/works/work-5.jpg" alt="">
+                <div class="works__content">
+                    <div class="works__title">Кира Мармеладова</div>
+                    <div class="works__text">Нейл-дизайнер</div>
+                </div>
+            </div>
+
+            <div class="works__item">
+                <img class="works__photo" src="img/works/work-6.jpg" alt="">
+                <div class="works__content">
+                    <div class="works__title">Екатерина Жданова</div>
+                    <div class="works__text">Парикмахер</div>
+                </div>
+            </div>
+
+            <div class="works__item">
+                <img class="works__photo" src="img/works/work-7.jpg" alt="">
+                <div class="works__content">
+                    <div class="works__title">Милко Вулканович</div>
+                    <div class="works__text">Визажист</div>
+                </div>
+            </div>
+
+            <div class="works__item">
+                <img class="works__photo" src="img/works/work-8.jpg" alt="">
+                <div class="works__content">
+                    <div class="works__title">Кира Мармеладова</div>
+                    <div class="works__text">Нейл-дизайнер</div>
+                </div>
+            </div>
+        </div><!-- /.works-->
+
+
+        <!-- Team -->
+        <div class="team" id="team">
+            <div class="container">
+                <div class="team__inner">
+
+                    <div class="team__item">
+                        <img class="team__photo" src="img/team/team-1.jpg" alt="">
+                        <div class="team__name">Екатерина Жданова</div>
+                        <div class="team__prof">Парикмахер</div>
+                        <div class="team__text">
+                            <p>Хороший мастер должен посредством своей работы подчеркнуть достоинства и скрыть недостатки лица посетителя. С помощью хорошей прически можно скорректировать овал лица, сделать черты пропорциональными и более привлекательными. Хорошо подобранные цвет, тон и способ окрашивания выгодно представят оттенок кожи и глаз, скроют седину. И именно это умеет делать наша дорогая Екатерина!</p>
+                        </div>
+                        
+                        <div class="social">
+                            <a class="social__item" href="https://www.facebook.com/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="https://twitter.com/?lang=ru" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="https://vk.com/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#vk"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team__item">
+                        <img class="team__photo" src="img/team/team-2.jpg" alt="">
+                        <div class="team__name">Милко Вулканович</div>
+                        <div class="team__prof">Визажист</div>
+                        <div class="team__text">
+                            <p>Не только саздает определенный образ, но и подчеркивает достоинства лица человека и скрывает недостатки. Работая с лицом, Милко учитывает природные данные клиента, знает, что нужно подчеркнуть с помощью макияжа, а что скрыть.
+                                Он знает, какие цвета и текстуры подходят под данный тип внешности, костюм, образ, уместны для данного времени суток, года, события.</p>
+                        </div>
+                        
+                        <div class="social">
+                            <a class="social__item" href="https://www.facebook.com/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="https://twitter.com/?lang=ru" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="https://vk.com/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#vk"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team__item">
+                        <img class="team__photo" src="img/team/team-3.jpg" alt="">
+                        <div class="team__name">Кира Мармеладова</div>
+                        <div class="team__prof">Нейл-дизайнер</div>
+                        <div class="team__text">
+                            <p>Выполняет косметическую обработку ногтей, придает им форму, проводит гигиеническую чистку, шлифовку, лечение. Разбирается в структуре ногтей, умеет определять возможные заболевания, знает способы укрепления и лечения хрупких и ломких ногтей.</p>
+                        </div>
+                        
+                        <div class="social">
+                            <a class="social__item" href="https://www.facebook.com/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="https://twitter.com/?lang=ru" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="https://vk.com/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#vk"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team__item">
+                        <img class="team__photo" src="img/team/team-4.jpg" alt="">
+                        <div class="team__name">Виктория Клочкова</div>
+                        <div class="team__prof">Нейл-дизайнер</div>
+                        <div class="team__text">
+                            <p>Осуществляет косметические процедуры по уходу за руками. Разбирается в современной ногтевой моде, умеет подобрать актуальную и красивую форму ногтевой пластины, может порекомендовать эффективный способ ухода за ногтями и помочь выбрать наиболее подходящий дизайн ногтей.</p>
+                        </div>
+                        
+                        <div class="social">
+                            <a class="social__item" href="https://www.facebook.com/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="https://twitter.com/?lang=ru" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="https://vk.com/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#vk"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </div><!-- /.team__inner  -->
+            </div><!-- /.container  -->
+        </div><!-- /.team  -->
+
+
+        <!-- Reviews -->
+        <div class="reviews" id="reviews">
+            <div class="container">
+
+                <div class="reviews__slider" id="reviewsSlider">
+                    <div class="slick-item">
+                        <div class="reviews__item">
+                            <div class="reviews__photo">
+                                <img class="reviews__img" src="img/reviews/review-1.jpg" alt="">
+                            </div>
+                            <div class="reviews__content">
+                                <div class="reviews__text">“Пользуюсь услугами мастеров данного салона уже несколько лет. Только положительные эмоции! Всегда отличный результат!”</div>
+                                <div class="reviews__author">Брэд Питт</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick-item">
+                        <div class="reviews__item">
+                            <div class="reviews__photo">
+                                <img class="reviews__img" src="img/reviews/review-2.jpg" alt="">
+                            </div>
+                            <div class="reviews__content">
+                                <div class="reviews__text">“Была впервые в таком заведении - все понравилось, все рассказали, дали советы и вообще максимально позитивно и жизнерадостно прошло. Буду ходить и впредь)”</div>
+                                <div class="reviews__author">Анна Кошмал</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick-item">
+                        <div class="reviews__item">
+                            <div class="reviews__photo">
+                                <img class="reviews__img" src="img/reviews/review-3.jpg" alt="">
+                            </div>
+                            <div class="reviews__content">
+                                <div class="reviews__text">“Хочу сказать большое спасибо мастеру с большой буквы Виктории за мой красивый и изящный маникюр и педикюр. Мне нравится, когда мастер подходит к своей работе с душой. Работа сделана профессионально.”</div>
+                                <div class="reviews__author">Ирина Муравьёва</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick-item">
+                        <div class="reviews__item">
+                            <div class="reviews__photo">
+                                <img class="reviews__img" src="img/reviews/review-4.jpg" alt="">
+                            </div>
+                            <div class="reviews__content">
+                                <div class="reviews__text">“Прекрасный маникюр. Посоветую Хищнику.”</div>
+                                <div class="reviews__author">Чужой</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.container -->
+        </div><!-- /.reviews -->
+
+
+        <!-- Appointment -->
+        <div class="appointment">
+            <div class="container">
+                <h3 class="appointment__title">Желаете найти свой стиль? Приходите к нам!</h3>
+                <div class="appointment__text">
+                    <p>Новым клиентам первое посещение бесплатно</p>
+                </div>
+                <a class="btn  btn--red  btn--long open-popup" href="#">Записаться к мастеру</a>
+            </div>
+        </div>
+
+
+        <!-- PopUp -->
+        <div class="popup__bg">
+            <form class="popup">
+                <img src="img/close_popup.svg" alt="" class="close-popup">
+
+                <label>
+                    <input type="text" name="name">
+                    <div class="label__text">
+                        Ф.И.О.
+                    </div>
+                </label>
+
+                <label>
+                    <input type="tel" name="tel">
+                    <div class="label__text">
+                        Ваш телефон
+                    </div>
+                </label>
+
+                <label>
+                    <textarea name="message"></textarea>
+                    <div class="label__text">
+                        Ваше сообщение
+                    </div>
+                </label>
+
+                <button class="submit" type="submit">Отправить</button>
+            </form>
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                
+                <div class="footer__inner">
+                    <div class="footer__block">
+                        <h4 class="footer__title">Адрес</h4>
+                        <adress class="footer__adress">
+                            <div>Матусевича, 72</div>
+                            <div>Минск, Беларусь</div>
+                        </adress>
+                    </div>
+
+                    <div class="footer__block">
+                        <h4 class="footer__title">Поделиться</h4>
+                        <div class="social  social--footer">
+                            <a class="social__item" href="https://www.facebook.com/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="https://twitter.com/?lang=ru" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a class="social__item" href="https://vk.com/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#vk"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__block">
+                        <h4 class="footer__title">О нашем салоне</h4>
+                        <div class="footer__text">
+                            <p>Уютная обстановка и приятная атмосфера "Ночного города" помогут Вам расслабиться, а наши профессионалы сделают всё, чтобы Вы пришли к нам снова.</p>
+                        </div>
+                    </div>
+                </div><!-- /.footer__inner -->
+
+            </div><!-- /.container -->
+
+            <div class="copyright">
+                <div class="container">                
+                    <div class="copyright__text">
+                        <div>Copyright © 2021 Night City. All Rights Reserved</div>
+                        <div>Made <span>by Mary Ivanova</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        
+        <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="app.js"></script>
+
+    </body>
+</html>
